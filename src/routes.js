@@ -13,11 +13,11 @@ export const Routes = () => {
             <div className='content'>
                 <Switch>
                     <Route exact path="/">
-                        <Redirect to="/Home" />
+                        <Redirect to="/great-depression/Home" />
                     </Route>
-                    <Route exact path="/Home" component={Home} />
-                    <Route exact path="/Fiscal" component={Fiscal} />
-                    <Route exact path="/Monetary" component={Monetary} />
+                    <Route exact path="/great-depression/Home" component={Home} />
+                    <Route exact path="/great-depression/Fiscal" component={Fiscal} />
+                    <Route exact path="/great-depression/Monetary" component={Monetary} />
                 </Switch>
             </div>
         </div>
