@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/great-depression/static/css/main.4c6728bf.chunk.css",
-    "main.js": "/great-depression/static/js/main.a88b044a.chunk.js",
-    "main.js.map": "/great-depression/static/js/main.a88b044a.chunk.js.map",
+    "main.js": "/great-depression/static/js/main.ae28cbf9.chunk.js",
+    "main.js.map": "/great-depression/static/js/main.ae28cbf9.chunk.js.map",
     "runtime-main.js": "/great-depression/static/js/runtime-main.cb5b6af7.js",
     "runtime-main.js.map": "/great-depression/static/js/runtime-main.cb5b6af7.js.map",
-    "static/js/2.1ede25f9.chunk.js": "/great-depression/static/js/2.1ede25f9.chunk.js",
-    "static/js/2.1ede25f9.chunk.js.map": "/great-depression/static/js/2.1ede25f9.chunk.js.map",
+    "static/js/2.12f30e91.chunk.js": "/great-depression/static/js/2.12f30e91.chunk.js",
+    "static/js/2.12f30e91.chunk.js.map": "/great-depression/static/js/2.12f30e91.chunk.js.map",
     "index.html": "/great-depression/index.html",
     "static/css/main.4c6728bf.chunk.css.map": "/great-depression/static/css/main.4c6728bf.chunk.css.map",
-    "static/js/2.1ede25f9.chunk.js.LICENSE.txt": "/great-depression/static/js/2.1ede25f9.chunk.js.LICENSE.txt"
+    "static/js/2.12f30e91.chunk.js.LICENSE.txt": "/great-depression/static/js/2.12f30e91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cb5b6af7.js",
-    "static/js/2.1ede25f9.chunk.js",
+    "static/js/2.12f30e91.chunk.js",
     "static/css/main.4c6728bf.chunk.css",
-    "static/js/main.a88b044a.chunk.js"
+    "static/js/main.ae28cbf9.chunk.js"
   ]
 }
