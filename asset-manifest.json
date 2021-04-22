@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/great-depression/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/great-depression/static/js/main.15cb8e0f.chunk.js",
+    "main.js.map": "/great-depression/static/js/main.15cb8e0f.chunk.js.map",
+    "runtime-main.js": "/great-depression/static/js/runtime-main.701f99f0.js",
+    "runtime-main.js.map": "/great-depression/static/js/runtime-main.701f99f0.js.map",
+    "static/js/2.fcdd65d9.chunk.js": "/great-depression/static/js/2.fcdd65d9.chunk.js",
+    "static/js/2.fcdd65d9.chunk.js.map": "/great-depression/static/js/2.fcdd65d9.chunk.js.map",
+    "static/js/3.a7f94227.chunk.js": "/great-depression/static/js/3.a7f94227.chunk.js",
+    "static/js/3.a7f94227.chunk.js.map": "/great-depression/static/js/3.a7f94227.chunk.js.map",
+    "index.html": "/great-depression/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/great-depression/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.fcdd65d9.chunk.js.LICENSE.txt": "/great-depression/static/js/2.fcdd65d9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/great-depression/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.701f99f0.js",
+    "static/js/2.fcdd65d9.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.15cb8e0f.chunk.js"
+  ]
+}
