@@ -1,0 +1,23 @@
+.NavBar {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.NavBarButton {
+    display: grid;
+    place-items: center;
+    flex: 1;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    font-size: calc(10px + 2vmin);
+    text-decoration: none;
+    color: white;
+}
+
+.NavBarButton:hover {
+    background-color: #373d48;
+}
