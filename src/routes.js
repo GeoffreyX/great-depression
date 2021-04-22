@@ -12,7 +12,7 @@ export const Routes = () => {
             <Header />
             <div className='content'>
                 <Switch>
-                    <Route exact path="/">
+                    <Route exact path="/great-depression/">
                         <Redirect to="/great-depression/Home" />
                     </Route>
                     <Route exact path="/great-depression/Home" component={Home} />
