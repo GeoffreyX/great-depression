@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .main {
@@ -15,4 +17,20 @@ body {
 
 .content {
     padding: 1vh 1vw;
+    height: 200vh;
+}
+
+.Scrolled{
+    position: fixed;
+    width: 100vw;
+    top: -120px;
+    left: 0;
+}
+
+.Pad {
+    height: 190px;
+}
+
+.noPad {
+    height: 0px;
 }

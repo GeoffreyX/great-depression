@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 export default function NavBar() {
+
   return (
     <div className='NavBar'>
         <Link to="/great-depression/Home" className='NavBarButton'><div>Overview</div></Link>
