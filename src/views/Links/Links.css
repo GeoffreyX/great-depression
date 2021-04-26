@@ -1,0 +1,14 @@
+.CitationBody {
+    font-family: "source-serif-pro", Georgia, Courier, serif;
+    text-align: center;
+    line-height: 2.5;
+    width: 70vw;
+}
+
+.CitationSource {
+    text-align: left;
+    text-indent: -25px;
+    overflow-wrap: break-word;
+    padding-left: 25px;
+    width: 70vw;
+}
