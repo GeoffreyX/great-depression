@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.Slide {
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    height: 60vh;
+}
+
+.SlideText {
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.SlideTextContainer {
+    padding: 1.5em;
+}
+
+.SlideLink {
+    flex: 1;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.SlideLinkContainer {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    padding-right: 10px;
+}

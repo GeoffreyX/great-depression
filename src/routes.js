@@ -10,24 +10,10 @@ import Header from './components/Header/Header';
 import './routes.css';
 
 export default function Routes() {
-    const [headerStyle, setHeaderStyle] = React.useState('');
 
-    const handleScroll = () => {
-        console.log(window.scrollY);
-        let style = '';
-        if (window.scrollY > 120) {
-            style = 'Scrolled';
-        }
-            setHeaderStyle(style);
-    }
-    window.addEventListener('scroll', handleScroll);
     return (
         <div className='main'>
-            <ScrollToTop />
-            <div className={headerStyle}>
-                <Header  />
-            </div>
-            <div className={headerStyle.length !== 0 ? 'Pad' : 'noPad'}/>
+            <Header />
             <div className='content'>
                 <Switch>
                     <Route exact path="/great-depression/">
@@ -42,13 +28,3 @@ export default function Routes() {
         </div>
     );
 };
-
-function ScrollToTop() {
-    const { pathname } = useLocation();
-  
-    React.useEffect(() => {
-      window.scrollTo(0, 0);
-    }, [pathname]);
-  
-    return null;
-  }

@@ -1,0 +1,14 @@
+.Date {
+    width: 8vw;
+    height: 6vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75vmin;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.DateContainer {
+    font-size: 1.75vmin;
+}

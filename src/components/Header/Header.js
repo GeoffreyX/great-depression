@@ -6,12 +6,6 @@ import './Header.css';
 
 export default function Header() {
 
-    React.useEffect(() => {
-        window.addEventListener('scroll', () => {
-            console.log(window.scrollY);
-        });
-    }, []);
-
     return (
         <div className={'Header'}>
             <div className='HeaderText'>
