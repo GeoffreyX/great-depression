@@ -10,7 +10,7 @@
 .SlideText {
     flex: 1;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: calc(2vmin + 5px);
     line-height: 1.5em;
     overflow-y: auto;
 }

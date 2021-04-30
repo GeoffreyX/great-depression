@@ -36,10 +36,10 @@ export default function Slide(props) {
                 </video>;
             case 3:
                 return <div className='MultiImage'>
-                    {props.links.map((link) => (
-                        <img src={link} alt='Linked' data-tip={props.linkBrief}/>
+                    {props.links.map((l) => (
+                        <img width='100%' src={l.link} data-tip={l.linkBrief} alt='Linked'/>
                     ))}
-                </div>
+                </div>;
             default:
                 return <div>Error with choosing link type</div>
         }

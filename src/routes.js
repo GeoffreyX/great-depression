@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, Redirect, useLocation } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import Home from './views/Home/Home';
 import Fiscal from './views/Fiscal/Fiscal';

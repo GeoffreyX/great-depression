@@ -22,10 +22,16 @@ export default function Monetary() {
         {
             linkType: 3,
             links: [
-                'https://images.squarespace-cdn.com/content/v1/52cdc300e4b012a81d31c03d/1415625255109-6LBCPQ3JC9KZZO85ZCM3/ke17ZwdGBToddI8pDm48kAuY86Hw9PfoJOj9N7gszFgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcPIL9geLof-EToOAAn-kVWC1XPIQf7uVPzCc6OE-KWLR-uoS0vfYvf2qy9Qq6CBAJ/image-asset.png?format=750w',
-                'https://www.sjsu.edu/faculty/watkins/depmon0.gif',
+                {
+                    link:'https://images.squarespace-cdn.com/content/v1/52cdc300e4b012a81d31c03d/1415625255109-6LBCPQ3JC9KZZO85ZCM3/ke17ZwdGBToddI8pDm48kAuY86Hw9PfoJOj9N7gszFgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcPIL9geLof-EToOAAn-kVWC1XPIQf7uVPzCc6OE-KWLR-uoS0vfYvf2qy9Qq6CBAJ/image-asset.png?format=750w',
+                    linkBrief: 'US Monetary Policy Through The Early 1930s',
+                },
+                {
+                    link: 'https://www.sjsu.edu/faculty/watkins/depmon0.gif',
+                    linkBrief: 'US Monetary Policy Through The Early 1930s',
+                },
             ],
-            linkBrief: 'US Monetary Policy Through The Early 1930s',
+            
             text: `\tAs the graphs show, The Fed was extremely slow to reverse its contractionary monetary policy in the Great Depression, with the New York Branch being one of the few members to actively attempt to change monetary policy, buying treasury bonds and attempting to convince their fellow members to raise the reserve ratio rate and lower the discount rate. As a result, according to the National Bureau for Economic Research, contractionary monetary policy remained in place for the first half of the 1930s, leading to a decrease in the money supply, a rise in interest rates, and a continued fall in aggregate demand. Additionally, the refusal of most Branches of the Fed to buy treasury bonds or to raise the reserve ratio rate further decreased aggregate demand by keeping the money supply consistently low.`,
         },
         {
@@ -36,8 +42,12 @@ export default function Monetary() {
         {
             linkType: 3,
             links: [
-                'http://4.bp.blogspot.com/_otfwl2zc6Qc/SpcfEsicudI/AAAAAAAALJ4/NIVVlgOz4OQ/s400/bank4.jpg',
-                picture,
+                {
+                    link: 'http://4.bp.blogspot.com/_otfwl2zc6Qc/SpcfEsicudI/AAAAAAAALJ4/NIVVlgOz4OQ/s400/bank4.jpg',
+                },
+                {
+                    link: picture,
+                }
             ],
             text: `\tAccording to Daniel Sanches of Federal Reserve History, The Great Depression substantially changed the use of Monetary Policy for the Federal Reserve. The Fed’s refusal to shift away from contractionary monetary policy had been a flawed decision which had strengthened the economic crash and done little to accomplish its initial goal of keeping stock prices up. In future economic crises, the Fed would be more careful with applying monetary policy, to avoid strengthening future economic crises, with the results clearly being shown in these graphs in the form of thousands of less banks closing in the economic crises after The Great Depression. The Great Recession was a terrible economic recession, but The Federal Reserve was cautious and innovative in addressing the crisis, leading to far less bank closures and economic turmoil than the Great Recession. While the Great Depression was a clear failure for the Federal Reserves in many ways, especially in monetary policy, the Fed learned and improved from its mistakes, which is the ultimate legacy of the Fed’s role in the Great Depression.`,
         }

@@ -7,6 +7,11 @@ import './Home.css';
 export default function Home() {
     const slides = [
         {
+            linkType: 1,
+            link: 'https://www.youtube.com/embed/haVVWapm7Yw',
+            text: `\tThe video gives a summary of the state of the agriculture industry just before and during the Great Depression. The surplus from WWI meant that there was too much supply, which couldn’t react to the suddenly decreased demand of normal, everyday life. The stoppage of the expansionary fiscal policy (price guarantees for food) on the oversaturated industry dried out prices and left millions in unemployment and a GDP drop. The failing agricultural industry was one of the factors that left the stock market inflated, and set the stage for the Great Depression.`,
+        },
+        {
             linkType: 2,
             link: 'https://f1.media.brightcove.com/4/1543588752001/1543588752001_2586961927001_05-Why-did-it-happen--720.mp4#t=0,134',
             linkBrief: 'A youtube video about the Smoot-Hawley Tariff Act',
@@ -26,6 +31,7 @@ export default function Home() {
     ];
 
     const dates = [
+        (<Date year='Agriculture' />),
         (<Date year='Stock Market' />),
         (<Date year='Gold Standard' />),
     ]
