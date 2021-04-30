@@ -20,4 +20,6 @@
 
 .HeaderSubtitle {
     font-size: calc(1vh + 1vmin);
+    display: grid;
+    place-items: center;
 }

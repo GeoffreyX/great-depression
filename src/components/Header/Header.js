@@ -10,7 +10,7 @@ export default function Header() {
         <div className={'Header'}>
             <div className='HeaderText'>
                 <div className='HeaderTitle'>The Great Depression</div>
-                <div className='HeaderSubtitle'>A website by Tyler Casper and Geoffrey Xue</div>
+                <div className='HeaderSubtitle'><div>A website by Tyler Casper and Geoffrey Xue</div></div>
             </div>
             <NavBar />
         </div>
