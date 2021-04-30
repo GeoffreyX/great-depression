@@ -4,6 +4,8 @@ import Date from '../../components/Date/Date';
 
 import './Monetary.css';
 
+import picture from './Monetary.jpg';
+
 export default function Monetary() {
     const slides = [
         {
@@ -35,7 +37,7 @@ export default function Monetary() {
             linkType: 3,
             links: [
                 'http://4.bp.blogspot.com/_otfwl2zc6Qc/SpcfEsicudI/AAAAAAAALJ4/NIVVlgOz4OQ/s400/bank4.jpg',
-                'http://arizonaenergy.org/News_09/News_May09/NumberUSBankFailures.jpg',
+                picture,
             ],
             text: `\tAccording to Daniel Sanches of Federal Reserve History, The Great Depression substantially changed the use of Monetary Policy for the Federal Reserve. The Fed’s refusal to shift away from contractionary monetary policy had been a flawed decision which had strengthened the economic crash and done little to accomplish its initial goal of keeping stock prices up. In future economic crises, the Fed would be more careful with applying monetary policy, to avoid strengthening future economic crises, with the results clearly being shown in these graphs in the form of thousands of less banks closing in the economic crises after The Great Depression. The Great Recession was a terrible economic recession, but The Federal Reserve was cautious and innovative in addressing the crisis, leading to far less bank closures and economic turmoil than the Great Recession. While the Great Depression was a clear failure for the Federal Reserves in many ways, especially in monetary policy, the Fed learned and improved from its mistakes, which is the ultimate legacy of the Fed’s role in the Great Depression.`,
         }
