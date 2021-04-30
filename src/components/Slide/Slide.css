@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 .Slide {
     display: flex;
@@ -9,7 +9,7 @@
 
 .SlideText {
     flex: 1;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: calc(2vmin + 5px);
     line-height: 1.5em;
     overflow-y: auto;
