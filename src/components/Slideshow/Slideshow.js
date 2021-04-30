@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 import Slide from '../Slide/Slide';
+import FadeIn from 'react-fade-in';
 
 import './Slideshow.css';
 
@@ -9,7 +10,7 @@ export default function Slideshow(props) {
     const [value, setValue] = useState(0);
 
     return (
-        <div className='Slideshow'>
+        <FadeIn className='Slideshow' delay='100' transitionDuration='450'>
             <Dots
                 value={value}
                 onChange={setValue}
@@ -25,6 +26,6 @@ export default function Slideshow(props) {
                     ))}
                 </Carousel>
             </div>
-        </div>
+        </FadeIn>
     );
 };

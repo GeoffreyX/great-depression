@@ -1,4 +1,5 @@
 import React from 'react';
+import FadeIn from 'react-fade-in';
 
 import './Links.css';
 
@@ -76,14 +77,16 @@ export default function Links(props) {
             >
                 Our notes document
             </a>
-            <div class='CitationBody'>
+            <FadeIn className='CitationBody'>
                 <div>Works Cited </div>
-                {citations.map(({start, end}) => (
-                    <div class='CitationSource'>
-                        <em>{start}</em> {end}
-                    </div>
-                ))}
-            </div>
+                <div>
+                    {citations.map(({start, end}) => (
+                        <div class='CitationSource'>
+                            <em>{start}</em> {end}
+                        </div>
+                    ))}
+                </div>
+            </FadeIn>
         </div>
     );
 };

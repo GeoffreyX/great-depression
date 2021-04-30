@@ -37,8 +37,8 @@ export default function Home() {
     ]
 
     return (
-        <div className='Home'>
-           <Slideshow slides={slides} dates={dates} />
+        <div className='Home animate'>
+            <Slideshow slides={slides} dates={dates} />
         </div>
     );
 };
