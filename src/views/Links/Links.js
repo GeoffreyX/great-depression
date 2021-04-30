@@ -72,10 +72,16 @@ export default function Links(props) {
     return (
         <div className='Links'>
             <a
-                style={{ display: 'inline-block' }}
+                style={{ display: 'block' }}
                 href={'https://docs.google.com/document/d/12PLJ0MwoIlR4AkSDaKOPhowT-Jr5nV8jprJo7rT3MeY/edit'}
             >
                 Our notes document
+            </a>
+            <a
+                style={{ display: 'block' }}
+                href={'https://github.com/GeoffreyX/great-depression'}
+            >
+                Check out the source code
             </a>
             <FadeIn className='CitationBody'>
                 <div>Works Cited </div>
