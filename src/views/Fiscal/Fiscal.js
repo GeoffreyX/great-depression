@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
-import Carousel, { Dots } from "@brainhubeu/react-carousel";
-import "@brainhubeu/react-carousel/lib/style.css";
-import Slide from '../../components/Slide/Slide';
+import React from 'react';
+import Slideshow from '../../components/Slideshow/Slideshow';
 import Date from '../../components/Date/Date';
 
 import './Fiscal.css';
 
-export default function Fiscal(props) {
-    const [value, setValue] = useState(0);
-
+export default function Fiscal() {
     const slides = [
         {
             linkType: 0,
@@ -55,21 +51,7 @@ export default function Fiscal(props) {
 
     return (
         <div className='Fiscal'>
-            <Dots
-                value={value}
-                onChange={setValue}
-                thumbnails={dates}
-            />
-            <div className='Carousel'>
-                <Carousel 
-                    value={value}
-                    onChange={setValue}
-                >
-                    {slides.map((slideProps) => (
-                        <Slide {...slideProps} />
-                    ))}
-                </Carousel>
-            </div>
+           <Slideshow slides={slides} dates={dates} />
         </div>
     );
 };

@@ -16,7 +16,7 @@ export default function Slide(props) {
     const renderLinks = () => {
         switch (props.linkType) {
             case 0:
-                return <img src={props.link} alt='Linked' data-tip={props.linkBrief}/>;
+                return <img width='100%' src={props.link} alt='Linked' data-tip={props.linkBrief}/>;
             case 1:
                 return <iframe
                     width='100%'
@@ -27,6 +27,19 @@ export default function Slide(props) {
                     allowFullScreen
                     title="Embedded youtube"
                 />;
+            case 2:
+                return <video
+                    width='100%'
+                    controls
+                >
+                    <source src={props.link} type='video/mp4'></source>
+                </video>;
+            case 3:
+                return <div className='MultiImage'>
+                    {props.links.map((link) => (
+                        <img src={link} alt='Linked' data-tip={props.linkBrief}/>
+                    ))}
+                </div>
             default:
                 return <div>Error with choosing link type</div>
         }
