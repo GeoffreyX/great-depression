@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/great-depression/static/css/main.bb1831c9.chunk.css",
-    "main.js": "/great-depression/static/js/main.372a84a9.chunk.js",
-    "main.js.map": "/great-depression/static/js/main.372a84a9.chunk.js.map",
+    "main.js": "/great-depression/static/js/main.a5d89976.chunk.js",
+    "main.js.map": "/great-depression/static/js/main.a5d89976.chunk.js.map",
     "runtime-main.js": "/great-depression/static/js/runtime-main.cb5b6af7.js",
     "runtime-main.js.map": "/great-depression/static/js/runtime-main.cb5b6af7.js.map",
     "static/css/2.d18ddb83.chunk.css": "/great-depression/static/css/2.d18ddb83.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.d18ddb83.chunk.css",
     "static/js/2.0f968e54.chunk.js",
     "static/css/main.bb1831c9.chunk.css",
-    "static/js/main.372a84a9.chunk.js"
+    "static/js/main.a5d89976.chunk.js"
   ]
 }
