@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Redirect, useLocation } from 'react-router-dom';
+import { Switch, Route, Redirect, useLocation } from 'react-router-dom';
 
 import Home from './views/Home/Home';
 import Fiscal from './views/Fiscal/Fiscal';
@@ -16,13 +16,10 @@ export default function Routes() {
             <Header />
             <div className='content'>
                 <Switch>
-                    <Route exact path="/great-depression/">
-                        <Redirect to="/great-depression/Home" />
-                    </Route>
-                    <Route exact path="/great-depression/Home" component={Home} />
-                    <Route exact path="/great-depression/Fiscal" component={Fiscal} />
-                    <Route exact path="/great-depression/Monetary" component={Monetary} />
-                    <Route exact path="/great-depression/Links" component={Links} />
+                    <Route exact path="/" component={Home} />
+                    <Route path="/Fiscal" component={Fiscal} />
+                    <Route path="/Monetary" component={Monetary} />
+                    <Route path="/Links" component={Links} />
                 </Switch>
             </div>
         </div>
